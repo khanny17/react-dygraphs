@@ -9,6 +9,7 @@
     "test": "karma start karma-ci.conf.js",
     "local-test": "karma start karma.conf.js --single-run",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "eslint": "eslint src/**/*.js src/**/*.jsx  demo/**/*.js demo/**/*.jsx test/**/*.js test/**/*.jsx",
     "eclint": "eclint check *.js *.json *.sublime-project *.md *.yml *.*rc *.*ignore src/**/*.js src/**/*.jsx  demo/**/*.js demo/**/*.jsx test/**/*.js test/**/*.jsx",
     "ecfix": "eclint fix *.js *.json *.sublime-project *.md *.yml *.*rc *.*ignore src/**/*.js src/**/*.jsx  demo/**/*.js demo/**/*.jsx test/**/*.js test/**/*.jsx",
